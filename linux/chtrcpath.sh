@@ -22,7 +22,7 @@ QMGR='SES'
 OUT='chtrcpath.out'
 
 date "+%Y/%m/%d %H:%M:%S" > ${OUT}
-rm -f /home/mqm/mytrace/*
+rm -f ${MQTRACEPATH}/*
 strmqtrc -e >> ${OUT} 2>&1
 strmqm ${QMGR} &>> ${OUT}
 dmpmqcfg -t all -m ${QMGR} > dmpmqcfg.out
@@ -31,8 +31,8 @@ endmqtrc -e &>> ${OUT}
 pushd ${MQTRACEPATH}
 dspmqtrc *.TRC
 popd
-ls -l /home/mqm/mytrace &>> ${OUT}
-ls -l /home/mqm/myerror &>> ${OUT}
+ls -l ${MQTRACEPATH} &>> ${OUT}
+ls -l ${MQTRACEPATH} &>> ${OUT}
 date "+%Y/%m/%d %H:%M:%S" &>> ${OUT}
 
 set +x
