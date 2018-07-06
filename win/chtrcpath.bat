@@ -4,7 +4,7 @@ rem Windows batch file
 rem change mq trace path 
 
 rem 2018/7/6
-rem usage: . ./chtrcpath.bat &> o.txt 
+rem usage: . ./chtrcpath.bat > o.txt 
 rem
 rem tested on win10 MQ905
 rem result:
