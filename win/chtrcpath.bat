@@ -1,15 +1,15 @@
-rem @echo off
+@echo off
 
 rem Windows batch file
 rem change mq trace path 
 
 rem 2018/7/6
-rem usage: . ./chtrcpath.bat > o.txt 
+rem usage: chtrcpath.bat > o.txt 
 rem
 rem tested on win10 MQ905
 rem result:
-rem   trace directory was changed, files were generated in modified place,
-rem   but no file generated in error directory
+rem   In windows, no file generated in trace directory but it works in Linux
+rem   no file generated in error directory
 
 rem setmqenv -s
 

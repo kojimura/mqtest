@@ -1,0 +1,13 @@
+
+Thumbs.db
+*.DS_Store
+*.swp
+*~
+._*
+
+*.exe
+*.obj
+*.o
+
+/data/
+
