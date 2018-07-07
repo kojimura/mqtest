@@ -14,7 +14,7 @@ rem   the messages were got from Q
 set MQSERVER=SCON/TCP/localhost
 set QNAME=Q1
 set QMGR=QM1
-set INFILE="..\data\testmsg.in"
+set INFILE="..\dataIn\testmsg.in"
 
 echo %MQSERVER%
 echo %QMGR%

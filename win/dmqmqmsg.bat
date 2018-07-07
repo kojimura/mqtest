@@ -14,9 +14,9 @@ rem   the messages were got from Q
 set MQSERVER=SCON/TCP/localhost
 set QNAME=Q1
 set QMGR=QM1
-set INFILE="..\data\testmsg.in"
-set OUTFILE="..\data\dmpmqmsg.out"
-set MSGFILE="..\data\msg.out"
+set INFILE="..\dataIn\testmsg.in"
+set OUTFILE="..\dataOut\dmpmqmsg.out"
+set MSGFILE="..\dataOut\msg.out"
 
 echo %MQSERVER%
 echo %QMGR%
