@@ -1,0 +1,207 @@
+
+AMQSBCG0 - starts here
+**********************
+ 
+ MQOPEN - 'DLQ'
+ 
+ 
+ MQGET of message number 1, CompCode:0 Reason:0
+****Message descriptor****
+
+  StrucId  : 'MD  '  Version : 2
+  Report   : 0  MsgType : 8
+  Expiry   : -1  Feedback : 0
+  Encoding : 546  CodedCharSetId : 819
+  Format : 'MQDEAD  '
+  Priority : 0  Persistence : 1
+  MsgId : X'414D51205445535420202020202020202B7FC15B206BD102'
+  CorrelId : X'000000000000000000000000000000000000000000000000'
+  BackoutCount : 0
+  ReplyToQ       : '                                                '
+  ReplyToQMgr    : 'TEST                                            '
+  ** Identity Context
+  UserIdentifier : 'koji        '
+  AccountingToken : 
+   X'16010515000000842B1FB16670B2FB8000D2F9E903000000000000000000000B'
+  ApplIdentityData : '                                '
+  ** Origin Context
+  PutApplType    : '11'
+  PutApplName    : '\c\putget\put\mput_ccsid.exe'
+  PutDate  : '20181013'    PutTime  : '06371132'
+  ApplOriginData : '    '
+
+  GroupId : X'000000000000000000000000000000000000000000000000'
+  MsgSeqNumber   : '1'
+  Offset         : '0'
+  MsgFlags       : '0'
+  OriginalLength : '-1'
+ 
+****   Message      ****
+ 
+ length - 178 of 178 bytes
+ 
+00000000:  444C 4820 0100 0000 4708 0000 4C51 2020   'DLH ....G...LQ  '
+00000010:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000020:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000030:  2020 2020 2020 2020 2020 2020 5455 5220   '            TUR '
+00000040:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000050:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000060:  2020 2020 2020 2020 2020 2020 2202 0000   '            "...'
+00000070:  AF03 0000 4D51 5354 5220 2020 0B00 0000   '¯...MQSTR   ....'
+00000080:  6573 5C49 424D 5C4D 515C 6269 6E36 345C   'es\IBM\MQ\bin64\'
+00000090:  7275 6E6D 7163 686C 2E65 7865 3230 3138   'runmqchl.exe2018'
+000000A0:  3130 3133 3038 3237 3338 3530 82A0 82A0   '101308273850‚ ‚ '
+000000B0:  82A0                                      '‚               '
+ 
+ 
+ MQGET of message number 2, CompCode:0 Reason:0
+****Message descriptor****
+
+  StrucId  : 'MD  '  Version : 2
+  Report   : 0  MsgType : 8
+  Expiry   : -1  Feedback : 0
+  Encoding : 546  CodedCharSetId : 819
+  Format : 'MQDEAD  '
+  Priority : 0  Persistence : 1
+  MsgId : X'414D51205445535420202020202020202B7FC15B206BD104'
+  CorrelId : X'000000000000000000000000000000000000000000000000'
+  BackoutCount : 0
+  ReplyToQ       : '                                                '
+  ReplyToQMgr    : 'TEST                                            '
+  ** Identity Context
+  UserIdentifier : 'koji        '
+  AccountingToken : 
+   X'16010515000000842B1FB16670B2FB8000D2F9E903000000000000000000000B'
+  ApplIdentityData : '                                '
+  ** Origin Context
+  PutApplType    : '11'
+  PutApplName    : '\c\putget\put\mput_ccsid.exe'
+  PutDate  : '20181013'    PutTime  : '06371332'
+  ApplOriginData : '    '
+
+  GroupId : X'000000000000000000000000000000000000000000000000'
+  MsgSeqNumber   : '1'
+  Offset         : '0'
+  MsgFlags       : '0'
+  OriginalLength : '-1'
+ 
+****   Message      ****
+ 
+ length - 178 of 178 bytes
+ 
+00000000:  444C 4820 0100 0000 4708 0000 4C51 2020   'DLH ....G...LQ  '
+00000010:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000020:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000030:  2020 2020 2020 2020 2020 2020 5455 5220   '            TUR '
+00000040:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000050:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000060:  2020 2020 2020 2020 2020 2020 2202 0000   '            "...'
+00000070:  AF03 0000 4D51 5354 5220 2020 0B00 0000   '¯...MQSTR   ....'
+00000080:  6573 5C49 424D 5C4D 515C 6269 6E36 345C   'es\IBM\MQ\bin64\'
+00000090:  7275 6E6D 7163 686C 2E65 7865 3230 3138   'runmqchl.exe2018'
+000000A0:  3130 3133 3038 3237 3338 3532 82A2 82A2   '101308273852‚¢‚¢'
+000000B0:  82A2                                      '‚¢              '
+ 
+ 
+ MQGET of message number 3, CompCode:0 Reason:0
+****Message descriptor****
+
+  StrucId  : 'MD  '  Version : 2
+  Report   : 0  MsgType : 8
+  Expiry   : -1  Feedback : 0
+  Encoding : 546  CodedCharSetId : 819
+  Format : 'MQDEAD  '
+  Priority : 0  Persistence : 1
+  MsgId : X'414D51205445535420202020202020202B7FC15B206BD106'
+  CorrelId : X'000000000000000000000000000000000000000000000000'
+  BackoutCount : 0
+  ReplyToQ       : '                                                '
+  ReplyToQMgr    : 'TEST                                            '
+  ** Identity Context
+  UserIdentifier : 'koji        '
+  AccountingToken : 
+   X'16010515000000842B1FB16670B2FB8000D2F9E903000000000000000000000B'
+  ApplIdentityData : '                                '
+  ** Origin Context
+  PutApplType    : '11'
+  PutApplName    : '\c\putget\put\mput_ccsid.exe'
+  PutDate  : '20181013'    PutTime  : '06371473'
+  ApplOriginData : '    '
+
+  GroupId : X'000000000000000000000000000000000000000000000000'
+  MsgSeqNumber   : '1'
+  Offset         : '0'
+  MsgFlags       : '0'
+  OriginalLength : '-1'
+ 
+****   Message      ****
+ 
+ length - 178 of 178 bytes
+ 
+00000000:  444C 4820 0100 0000 4708 0000 4C51 2020   'DLH ....G...LQ  '
+00000010:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000020:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000030:  2020 2020 2020 2020 2020 2020 5455 5220   '            TUR '
+00000040:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000050:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000060:  2020 2020 2020 2020 2020 2020 2202 0000   '            "...'
+00000070:  AF03 0000 4D51 5354 5220 2020 0B00 0000   '¯...MQSTR   ....'
+00000080:  6573 5C49 424D 5C4D 515C 6269 6E36 345C   'es\IBM\MQ\bin64\'
+00000090:  7275 6E6D 7163 686C 2E65 7865 3230 3138   'runmqchl.exe2018'
+000000A0:  3130 3133 3038 3237 3338 3532 82A4 82A4   '101308273852‚¤‚¤'
+000000B0:  82A4                                      '‚¤              '
+ 
+ 
+ MQGET of message number 4, CompCode:0 Reason:0
+****Message descriptor****
+
+  StrucId  : 'MD  '  Version : 2
+  Report   : 0  MsgType : 8
+  Expiry   : -1  Feedback : 0
+  Encoding : 546  CodedCharSetId : 819
+  Format : 'MQDEAD  '
+  Priority : 0  Persistence : 1
+  MsgId : X'414D51205445535420202020202020202B7FC15B206BD108'
+  CorrelId : X'000000000000000000000000000000000000000000000000'
+  BackoutCount : 0
+  ReplyToQ       : '                                                '
+  ReplyToQMgr    : 'TEST                                            '
+  ** Identity Context
+  UserIdentifier : 'koji        '
+  AccountingToken : 
+   X'16010515000000842B1FB16670B2FB8000D2F9E903000000000000000000000B'
+  ApplIdentityData : '                                '
+  ** Origin Context
+  PutApplType    : '11'
+  PutApplName    : '\c\putget\put\mput_ccsid.exe'
+  PutDate  : '20181013'    PutTime  : '06371638'
+  ApplOriginData : '    '
+
+  GroupId : X'000000000000000000000000000000000000000000000000'
+  MsgSeqNumber   : '1'
+  Offset         : '0'
+  MsgFlags       : '0'
+  OriginalLength : '-1'
+ 
+****   Message      ****
+ 
+ length - 178 of 178 bytes
+ 
+00000000:  444C 4820 0100 0000 4708 0000 4C51 2020   'DLH ....G...LQ  '
+00000010:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000020:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000030:  2020 2020 2020 2020 2020 2020 5455 5220   '            TUR '
+00000040:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000050:  2020 2020 2020 2020 2020 2020 2020 2020   '                '
+00000060:  2020 2020 2020 2020 2020 2020 2202 0000   '            "...'
+00000070:  AF03 0000 4D51 5354 5220 2020 0B00 0000   '¯...MQSTR   ....'
+00000080:  6573 5C49 424D 5C4D 515C 6269 6E36 345C   'es\IBM\MQ\bin64\'
+00000090:  7275 6E6D 7163 686C 2E65 7865 3230 3138   'runmqchl.exe2018'
+000000A0:  3130 3133 3038 3237 3338 3532 82A6 82A6   '101308273852‚¦‚¦'
+000000B0:  82A6                                      '‚¦              '
+ 
+ 
+ 
+ No more messages 
+ MQCLOSE
+ MQDISC
